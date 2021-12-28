@@ -47,6 +47,8 @@ function App() {
 
   return ready ? (
     <div className="App">
+      <h1>视频 转 gif</h1>
+
       {video && (
         <video controls width="250" src={URL.createObjectURL(video)}></video>
       )}
